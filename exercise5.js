@@ -1,9 +1,4 @@
 console.log("Part 4: Exercise 6");
-console.log(student.getFullName());
-student.enrollCourse('CMPS2212');
-student.enrollCourse('MATH2210');
-console.log("Course count: " + student.getCourseCount()); // Expected: 2
-console.log("Part 4: Exercise 6");
 const vehicle = {
     wheels: 4,
     describe() {
