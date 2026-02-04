@@ -1,4 +1,5 @@
 console.log("Part 4: Exercise 7");
+//prototype chain: manager -> employee -> person -> Object.prototype -> null
 const person = {
     species: 'Human',
     breathe() {
