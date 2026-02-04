@@ -1,4 +1,9 @@
 console.log("Part 4: Exercise 6");
+console.log(student.getFullName());
+student.enrollCourse('CMPS2212');
+student.enrollCourse('MATH2210');
+console.log("Course count: " + student.getCourseCount()); // Expected: 2
+console.log("Part 4: Exercise 6");
 const vehicle = {
     wheels: 4,
     describe() {
@@ -10,3 +15,9 @@ const car = Object.create(vehicle);
 car.make = 'Toyota';
 car.model = 'Camry';
 car.year = 2024;
+car.describe();
+
+console.log(Object.hasOwn(car, 'make')); // true
+console.log(Object.hasOwn(car, 'wheels')); // false
+console.log(car.wheels); // 4 (from prototype)
+console.log(car.describe()); // method from vehicle
